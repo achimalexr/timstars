@@ -10,7 +10,7 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-image: url('background.jpg');
+            background-image: url('index_background.jpg');
             background-size: cover;
             background-position: center;
         }
@@ -20,29 +20,20 @@
             padding: 10px 0;
             text-align: center;
         }
-        nav ul {
-            list-style-type: none;
-            padding: 0;
+        nav {
+            text-align: center;
+            margin: 10px 0;
         }
-        nav ul li {
-            display: inline;
-            margin-right: 10px;
-        }
-        nav ul li a {
-            color: white;
+        nav a {
+            margin: 0 15px;
             text-decoration: none;
+            color: white;
         }
         .container {
             width: 80%;
             margin: 20px auto;
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .card {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            margin-bottom: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         footer {
@@ -54,25 +45,51 @@
             width: 100%;
             bottom: 0;
         }
+        .contact {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        #despre-noi {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        #despre-noi p {
+            margin-bottom: 0;
+        }
+        #despre-noi img {
+            max-width: 100%;
+            height: auto;
+            max-height: 400px;
+            display: block;
+            margin: 20px auto;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>TIMSTARS - Veritabil</h1>
-        <nav>
-            <ul>
-                <li><a href="#despre">Despre Noi</a></li>
-                <li><a href="teddy.html">Teddy</a></li>
-                <li><a href="igor.html">Igor</a></li>
-                <li><a href="kompot.html">Kompot</a></li>
-                <li><a href="porumbel.html">Porumbel</a></li>
-            </ul>
-        </nav>
     </header>
+    <nav>
+        <a href="#despre-noi">Despre noi</a>
+        <a href="merch.html">Merch</a>
+        <a href="teddy.html">Teddy</a>
+        <a href="igor.html">Igor</a>
+        <a href="kompot.html">Kompot</a>
+        <a href="porumbel.html">Porumbel</a>
+    </nav>
     <div class="container">
-        <section id="despre" class="card">
-            <h2>Despre Noi</h2>
+        <section id="despre-noi">
             <p>Cele mai pizdoase mașini din Timișoara, cu cei mai pizdoși proprietari!</p>
+            <img src="index.jpg" alt="Index Image">
+        </section>
+        <section class="contact">
+            <h2>Contact</h2>
+            <a href="https://www.instagram.com/timstarsscty" target="_blank">Instagram</a>
         </section>
     </div>
     <footer>

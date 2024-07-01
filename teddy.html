@@ -20,6 +20,15 @@
             padding: 10px 0;
             text-align: center;
         }
+        nav {
+            text-align: center;
+            margin: 10px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
         .container {
             width: 80%;
             margin: 20px auto;
@@ -35,7 +44,7 @@
         }
         .card img {
             max-width: 100%;
-            max-height: 400px; /* Adjust height as needed */
+            max-height: 200px; /* Adjust height as needed */
             display: block;
             margin: 10px auto;
         }
@@ -48,15 +57,14 @@
             width: 100%;
             bottom: 0;
         }
-        .back-button {
-            display: block;
-            width: 100px;
-            margin: 20px auto;
-            padding: 10px;
-            background-color: #333;
-            color: white;
+        .contact {
             text-align: center;
+            margin-top: 20px;
+        }
+        .contact a {
+            margin: 0 10px;
             text-decoration: none;
+            color: #333;
         }
     </style>
 </head>
@@ -64,13 +72,25 @@
     <header>
         <h1>Teddy - TIMSTARS</h1>
     </header>
+    <nav>
+        <a href="index.html#despre-noi">Despre noi</a>
+        <a href="merch.html">Merch</a>
+        <a href="teddy.html">Teddy</a>
+        <a href="igor.html">Igor</a>
+        <a href="kompot.html">Kompot</a>
+        <a href="porumbel.html">Porumbel</a>
+    </nav>
     <div class="container">
         <section class="card">
             <h2>Despre Teddy</h2>
             <p>Proprietar instarit caci are jante de haur</p>
             <img src="teddy.jpeg" alt="Teddy">
         </section>
-        <a href="index.html" class="back-button">Înapoi</a>
+        <div class="contact">
+            <h3>Contact</h3>
+            <a href="https://www.instagram.com/denistirlea" target="_blank">Instagram</a>
+            <a href="https://www.tiktok.com/@_denisadrian_" target="_blank">TikTok</a>
+        </div>
     </div>
     <footer>
         <p>&copy; 2023-2024 TIMSTARS. Toate drepturile rezervate.</p>
