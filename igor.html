@@ -10,10 +10,11 @@
             background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-image: url('igor_background.jpeg');
+            background-image: url('igor_background.jpeg'); /* Adaugă imaginea de fundal */
             background-size: cover;
             background-position: center;
         }
+        /* Restul stilurilor tale CSS... */
         header {
             background-color: rgba(0, 0, 0, 0.5);
             color: white;
@@ -35,18 +36,7 @@
             background-color: rgba(255, 255, 255, 0.8);
             padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .card {
-            background-color: rgba(255, 255, 255, 0.8);
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .card img {
-            max-width: 100%;
-            max-height: 200px; /* Adjust height as needed */
-            display: block;
-            margin: 10px auto;
+            text-align: center; /* Aliniaza textul pe mijloc */
         }
         footer {
             background-color: rgba(0, 0, 0, 0.5);
@@ -66,6 +56,13 @@
             text-decoration: none;
             color: #333;
         }
+        .card img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px auto;
+            max-height: 300px; /* Setează o înălțime maximă pentru imagine */
+        }
     </style>
 </head>
 <body>
@@ -83,14 +80,14 @@
     <div class="container">
         <section class="card">
             <h2>Despre Igor</h2>
-            <p>Proprietarului ii place aspectul stock al masinii</p>
+            <p>Proprietarului îi place aspectul stock al mașinii</p>
             <img src="igor.jpeg" alt="Igor">
         </section>
-        <div class="contact">
-            <h3>Contact</h3>
+        <section class="contact">
+            <h2>Contact</h2>
             <a href="https://www.instagram.com/adriancortusan" target="_blank">Instagram</a>
             <a href="https://www.tiktok.com/@cxrtusan" target="_blank">TikTok</a>
-        </div>
+        </section>
     </div>
     <footer>
         <p>&copy; 2023-2024 TIMSTARS. Toate drepturile rezervate.</p>
